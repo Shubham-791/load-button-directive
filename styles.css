@@ -1,0 +1,31 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body { 
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+.basic-container {
+  padding: 30px;
+}
+
+.mat-raised-button img, .mat-button img {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 5px 7px 5px;
+}
+
+.mat-load-button {
+  padding: 0 !important;
+}
+
+.mat-load-button .mat-button-wrapper {
+  margin: 0 15px;
+}
+
+.mat-load-button .mat-progress-bar {
+  margin-bottom: -5px;
+  border-radius: 2px 2px 0 0;
+}
